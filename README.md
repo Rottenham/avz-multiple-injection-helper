@@ -48,7 +48,7 @@ set "pvz_shortcut=.\bin\pvz"
 
 个人推荐的文件结构是：
 ```
-└─文件夹
+└─目录
    ├─脚本.cpp
    └─bin
        └─pvz（快捷方式）
