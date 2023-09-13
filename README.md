@@ -52,7 +52,7 @@ set "pvz_shortcut=.\bin\pvz"
    ├─脚本.cpp
    ├─create_multiple_dll.batch
    └─bin
-       └─pvz（快捷方式）
+       ├─pvz（快捷方式）
        └─injector.exe
 ```
 
