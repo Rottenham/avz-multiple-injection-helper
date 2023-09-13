@@ -48,8 +48,9 @@ set "pvz_shortcut=.\bin\pvz"
 
 个人推荐的文件结构是：
 ```
-└─目录
+└─脚本目录
    ├─脚本.cpp
+   ├─create_multiple_dll.batch
    └─bin
        └─pvz（快捷方式）
        └─injector.exe
