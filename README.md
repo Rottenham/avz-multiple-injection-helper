@@ -37,15 +37,27 @@ vector<Task> get_tasks() {
 
 并修改本项目提供的`create_multiple_dll.batch`文件中以下项目：
 ```batch
-rem AvZ安装目录、源码文件名、子单元数
+rem AvZ安装目录、源码文件名、子单元数、PvZ快捷方式路径
 set "avz_dir=C:\Path\To\AsmVsZombies"
 set "source=.\PE-activate.cpp"
 set "subunit_num=2"
+set "pvz_shortcut=.\bin\pvz"
 ```
 
 再运行之即可。
 
-之后按照[AvZ多开工具](https://github.com/alumkal/avz-multi-instance-tools/tree/main)中的使用说明，将得到的所有`dll`一并拖入其提供的`injector.exe`即可。
+个人推荐的文件结构是：
+```
+└─文件夹
+   ├─脚本.cpp
+   └─bin
+       └─pvz（快捷方式）
+       └─injector.exe
+```
+
+这样所有生成的`dll`和`injector.exe`将都在`\bin`目录下。
+
+按照[AvZ多开工具](https://github.com/alumkal/avz-multi-instance-tools/tree/main)中的使用说明，将得到的所有`dll`一并拖入其提供的`injector.exe`即可。
 
 ## 附加说明
 
