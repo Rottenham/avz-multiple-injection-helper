@@ -2,7 +2,7 @@
 
 ## 问题
 
-[AvZ多开工具](https://github.com/alumkal/avz-multi-instance-tools/tree/main)很好用，可是有时候我们希望从一个`.cpp`源码中生成多个`dll`（例如使用刷新测试器拆分测试项目时），然后一并注入。
+[AvZ多开工具](https://github.com/alumkal/avz-multi-instance-tools/tree/main)很好用，可是有时候我们希望从一个`.cpp`源码中生成多个`dll`（例如使用[刷新测试器](https://github.com/qrmd0/AvZLib/tree/main/Reisen/refresh)拆分测试项目时），然后一并注入。
 
 ## 先前的做法
 
